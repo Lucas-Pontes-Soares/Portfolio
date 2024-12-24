@@ -81,7 +81,7 @@ export const Navbar: React.FC<Props> = ({ page }) => {
               isLocalHost ? (
                 <a href="http://localhost:5173/Contato">Contato</a>
               ) : (
-                <a href="https://portfolio-b5wg.onrender.com/Projetos">Contato</a>
+                <a href="https://portfolio-b5wg.onrender.com/Contato">Contato</a>
               )
             )}
           </div>
