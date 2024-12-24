@@ -2,7 +2,7 @@
     color: white;
     perspective: 1000px;
     width: 300px;
-    height: 400px;
+    height: 420px;
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.5s;
