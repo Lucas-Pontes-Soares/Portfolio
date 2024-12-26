@@ -41,7 +41,7 @@ export function SobreMim(){
             </div>
 
             <div className="flex w-full h-14 items-center justify-center">
-                <h1 className="text-white text-xl font-Julius">Programador Full-Stack</h1>
+                <h1 className="text-white text-xl font-Julius">Desenvolvedor Full-Stack</h1>
             </div>
 
             <div className="flex w-full h-14 items-center justify-center">

@@ -2,7 +2,6 @@ import { Navbar } from "../components/Navbar";
 import { FlipCard } from "../components/FlipCard";
 import { BarraInferior } from "../components/BarraInferior";
 
-
 export function Projetos(){
 
     return(
@@ -29,9 +28,9 @@ export function Projetos(){
             <div className="flex-1">
                 <div className="flex items-center justify-center h-full flex-col">
                     <h1 className="text-emerald-400 text-2xl font-bold pb-3 sm:text-5xl">
-                            Conheça meus projetos!
+                        # Conheça meus projetos!
                     </h1>
-                    <p className="text-emerald-800 text-1xl font-bold sm:text-2xl">Passe o cursor por cima (ou clique) no projeto para saber mais</p>
+                    <p className="text-gray-300 text-1xl sm:text-2xl">Passe o cursor por cima (ou clique) no projeto para saber mais</p>
                 </div>
             </div>
             <div className="flex">
