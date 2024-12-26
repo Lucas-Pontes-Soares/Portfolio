@@ -6,7 +6,7 @@ export function Contato() {
     return (
         <div className="bg-minhaCor min-h-screen">
             <Navbar page="contato" />
-            <div className="bg-imageContato h-screen flex flex-col items-center justify-center space-y-4">
+            <div className="bg-imageContato min-h-screen flex flex-col items-center justify-center space-y-4">
                 <div className="bg-minhaCor p-8 flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-8 w-[90%] md:w-1/2 rounded-xl shadow-lg">
                     <div className="flex-shrink-0">
                         <img
