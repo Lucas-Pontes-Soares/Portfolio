@@ -19,9 +19,9 @@
   
 .bg-imageHabilidades {
     background-image: url('/BarcoFundo3.png'); 
-    background-size: cover; 
-    background-position: center center; 
-    background-repeat: no-repeat; 
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem seja repetida */
 }
 
 .bg-imageContato {

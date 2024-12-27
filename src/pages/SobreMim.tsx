@@ -88,7 +88,10 @@ export function SobreMim(){
                 <div className="flex w-full h-full items-center justify-center">
                     <div className="flex w-6/12 items-center h-80 justify-center bg-minhaCor text-white z-10">
                         <div className="pl-10">
-                            <h1 className="text-white text-xl font-Julius text-left pb-7">Formação Acadêmica</h1>
+                            <h3 className="text-white text-2xl font-bold">
+                                # Formação Acadêmica:
+                            </h3>
+                            <br />
                             <p className="text-white text-xl font-josefin">
                             Olá! Meu nome é Lucas Pontes Soares, sou técnico em desenvolvimento de sistemas, formado pela ETEC no curso DS AMS.
                             </p>
@@ -135,7 +138,10 @@ export function SobreMim(){
                     <div className="tringuleLateral2 w-3/12 flex items-center justify-center z-10"></div>
                     <div className="flex w-6/12 items-center h-80 justify-center bg-minhaCor text-white z-10">
                         <div className="pr-10">
-                            <h1 className="text-white text-xl font-Julius text-right pb-7">Meu Objetivo</h1>
+                            <h3 className="text-white text-2xl font-bold">
+                                # Meu Objetivo:
+                            </h3>
+                            <br />
                             <p className="text-white text-xl font-josefin">
                                 Gosto muito de programação, busco aumentar meus conhecimentos na área de tecnologia da informação e programação, estou sempre disposto a me atualizar e aprimorar nessa área, buscando ir para o próximo nível!  
                             </p>
