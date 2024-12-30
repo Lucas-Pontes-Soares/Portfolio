@@ -24,7 +24,7 @@ export const Navbar: React.FC<Props> = ({ page }) => {
     setMenuOpen(!menuOpen);
   };
 
-  const isLocalHost = true;
+  const isLocalHost = false;
 
   return (
     <div className={`flex fixed w-full content-start flex-wrap text-slate-50 bg-neutral-900 bg-opacity-70 z-20`}>
