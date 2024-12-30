@@ -1,6 +1,6 @@
 import { Brain, CodeXml } from "lucide-react";
 import { Navbar } from "../components/Navbar";
-import { FaAngular, FaArrowsAlt, FaCheck, FaClipboardList, FaCode, FaComment, FaCss3Alt, FaDatabase, FaExchangeAlt, FaGitAlt, FaHtml5, FaJava, FaJs, FaLightbulb, FaMicrochip, FaMobileAlt, FaNodeJs, FaNpm, FaPalette, FaProjectDiagram, FaReact, FaServer, FaTasks, FaThLarge, FaUsers, FaWrench } from "react-icons/fa";
+import { FaAngular, FaArrowsAlt, FaCheck, FaClipboardList, FaCode, FaComment, FaCss3Alt, FaDatabase, FaExchangeAlt, FaGitAlt, FaHtml5, FaJava, FaJs, FaLightbulb, FaMicrochip, FaMobileAlt, FaNodeJs, FaNpm, FaPalette, FaPhp, FaProjectDiagram, FaReact, FaServer, FaTasks, FaThLarge, FaUsers, FaWrench } from "react-icons/fa";
 import { Skills } from "../components/Skills";
 import { LuFileJson } from "react-icons/lu";
 import { GiFamilyTree } from "react-icons/gi";
@@ -29,6 +29,7 @@ export function Habilidades() {
                                 <Skills isLong={false} name="ReactJS" icon={FaReact} color="bg-blue-400" />
                                 <Skills isLong={false} name="Angular" icon={FaAngular} color="bg-red-500" />
                                 <Skills isLong={false} name="Arduino" icon={FaMicrochip} color="bg-teal-500" />
+                                <Skills isLong={false} name="PHP" icon={FaPhp} color="bg-indigo-500" />
                                 <Skills isLong={false} name="MongoDB" icon={FaDatabase} color="bg-green-700" />
                                 <Skills isLong={false} name="SQL" icon={FaServer} color="bg-purple-500" />
                                 <Skills isLong={false} name="NPM" icon={FaNpm} color="bg-red-600" />

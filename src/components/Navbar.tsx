@@ -24,12 +24,15 @@ export const Navbar: React.FC<Props> = ({ page }) => {
     setMenuOpen(!menuOpen);
   };
 
-  const isLocalHost = false;
+  const isLocalHost = true;
 
   return (
     <div className={`flex fixed w-full content-start flex-wrap text-slate-50 bg-neutral-900 bg-opacity-70 z-20`}>
       {!isMobile && (
         <>
+          <div className="flex-1 h-16 flex items-center justify-center">
+            <img src="/timonIcon.png" alt="Timon" height="70px" width="70px" />
+          </div>
           <div className="flex-1 h-16 flex items-center justify-center text-2xl font-itim hover:text-amber-300">
             {page === 'sobre-mim' ? (
               <a className="text-amber-300">
@@ -56,8 +59,18 @@ export const Navbar: React.FC<Props> = ({ page }) => {
               )
             )}
           </div>
-          <div className="flex-1 h-16 flex items-center justify-center">
-            <img src="/timonIcon.png" alt="Timon" height="70px" width="70px" />
+          <div className="flex-1 h-16 flex items-center justify-center text-2xl font-itim hover:text-amber-300">
+            {page === 'experiencias' ? (
+              <a className="text-amber-300">
+                Experiencias
+              </a>
+            ) : (
+              isLocalHost ? (
+                <a href="http://localhost:5173/Experiencias">Experiências</a>
+              ) : (
+                <a href="https://portfolio-b5wg.onrender.com/Experiencias">Experiências</a>
+              )
+            )}
           </div>
           <div className="flex-1 h-16 flex items-center justify-center text-2xl font-itim hover:text-amber-300">
             {page === 'projetos' ? (
@@ -84,6 +97,9 @@ export const Navbar: React.FC<Props> = ({ page }) => {
                 <a href="https://portfolio-b5wg.onrender.com/Contato">Contato</a>
               )
             )}
+          </div>
+          <div className="flex-1 h-16 flex items-center justify-center">
+            <img src="/timonIcon.png" alt="Timon" height="70px" width="70px" />
           </div>
         </>
       )}
@@ -125,6 +141,19 @@ export const Navbar: React.FC<Props> = ({ page }) => {
                     <a href="http://localhost:5173/Habilidades">Habilidades</a>
                   ) : (
                     <a href="https://portfolio-b5wg.onrender.com/Habilidades">Habilidades</a>
+                  )
+                )}
+              </div>
+              <div className="text-white text-2xl font-itim hover:text-amber-300">
+                  {page === 'experiencias' ? (
+                  <a className="text-amber-300">
+                    Experiencias
+                  </a>
+                ) : (
+                  isLocalHost ? (
+                    <a href="http://localhost:5173/Experiencias">Experiências</a>
+                  ) : (
+                    <a href="https://portfolio-b5wg.onrender.com/Experiencias">Experiências</a>
                   )
                 )}
               </div>
